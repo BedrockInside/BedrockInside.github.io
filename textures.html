@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Статьи - MCBE Блог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="burger" onclick="toggleMenu()">☰ Меню</div>
+        <ul id="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#mods">Моды</a></li>
+            <li><a href="#addons">Аддоны</a></li>
+            <li><a href="#textures">Текстурпаки</a></li>
+            <li><a href="#maps">Карты</a></li>
+            <li><a href="#guides">Гайды</a></li>
+            <li><a href="articles.html">Статьи</a></li>
+            <li><a href="about.html">О блоге</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Статьи</h1>
+            <p>Все материалы и статьи о Minecraft Bedrock Edition</p>
+        </header>
+
+        <!-- Блок с описанием блога -->
+        <div class="blog-info">
+            <h3>О нашем блоге</h3>
+            <div class="blog-info-content">
+                <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/36/Spider_JE2_BE2.png" alt="Паук из Minecraft">
+                <p>MCBE Блог — это место, где вы найдёте всё о Minecraft Bedrock Edition: моды, аддоны, текстурпаки, карты, гайды и статьи. Мы публикуем свежие материалы для всех игроков!</p>
+            </div>
+        </div>
+
+        <!-- Список статей -->
+        <div class="cards" id="articles">
+            <div class="card">
+                <img src="https://via.placeholder.com/250x150" alt="Статья 1">
+                <div class="card-content">
+                    <h3>Статья 1</h3>
+                    <p>Описание первой статьи. <a href="article.html">Читать далее</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/250x150" alt="Статья 2">
+                <div class="card-content">
+                    <h3>Статья 2</h3>
+                    <p>Описание второй статьи. <a href="article2.html">Читать далее</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/250x150" alt="Статья 3">
+                <div class="card-content">
+                    <h3>Статья 3</h3>
+                    <p>Описание третьей статьи. <a href="article3.html">Читать далее</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 MCBE Блог
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('menu').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

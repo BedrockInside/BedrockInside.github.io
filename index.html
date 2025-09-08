@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная - MCBE Блог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="burger" onclick="toggleMenu()">☰ Меню</div>
+        <ul id="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#mods">Моды</a></li>
+            <li><a href="#addons">Аддоны</a></li>
+            <li><a href="#textures">Текстурпаки</a></li>
+            <li><a href="#maps">Карты</a></li>
+            <li><a href="#guides">Гайды</a></li>
+            <li><a href="articles.html">Статьи</a></li>
+            <li><a href="about.html">О блоге</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>MCBE Блог</h1>
+            <p>Все о Minecraft Bedrock Edition: моды, аддоны, текстурпаки, карты, гайды и статьи</p>
+        </header>
+
+        <section id="mods">
+            <h2>Моды</h2>
+            <p>Описание модов...</p>
+        </section>
+        <section id="addons">
+            <h2>Аддоны</h2>
+            <p>Описание аддонов...</p>
+        </section>
+        <section id="textures">
+            <h2>Текстурпаки</h2>
+            <p>Описание текстурпаков...</p>
+        </section>
+        <section id="maps">
+            <h2>Карты</h2>
+            <p>Описание карт...</p>
+        </section>
+        <section id="guides">
+            <h2>Гайды</h2>
+            <p>Описание гайдов...</p>
+        </section>
+
+        <section id="articles">
+            <h2>Статьи</h2>
+            <p>Ссылки на статьи: <a href="articles.html">Все статьи</a></p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 MCBE Блог
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('menu').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
